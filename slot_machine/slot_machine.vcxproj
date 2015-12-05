@@ -90,15 +90,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Button.h" />
-    <ClInclude Include="Main.h" />
-    <ClInclude Include="reel.h" />
-    <ClInclude Include="slotmachine.h" />
-    <ClInclude Include="Texture.h" />
+    <ClInclude Include="button.hpp" />
+    <ClInclude Include="reel.hpp" />
+    <ClInclude Include="slotmachine.hpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClInclude Include="texture.hpp" />
+    <ClCompile Include="main.cpp" />
+    <ClInclude Include="main.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Texture.cpp" />
+    <Image Include="resources\textures\background.jpg" />
+    <Image Include="resources\textures\background1.jpg" />
+    <Image Include="resources\textures\image1.bmp" />
+    <Image Include="resources\textures\image2.jpg" />
+    <Image Include="resources\textures\image3.tga" />
+    <Image Include="resources\textures\selectDis.bmp" />
+    <Image Include="resources\textures\selectEna.bmp" />
+    <Image Include="resources\textures\startDis.bmp" />
+    <Image Include="resources\textures\startEna.bmp" />
+    <Image Include="resources\textures\thefont.png" />
+    <Image Include="resources\textures\thereel.jpg" />
+    <Image Include="resources\textures\thereel1.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

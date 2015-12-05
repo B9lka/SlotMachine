@@ -1,12 +1,16 @@
-﻿//Includes
+﻿// TODO: В C++ правильно использовать хедеры из стандартной библиотеки С так:
+// xxx.h = cxxx
+//#include <time.h>
+#include <ctime>
 
-#include "main.h"
 #include <gl\glut.h>
-#include <time.h>
-#include "Texture.h"
-#include "reel.h"
-#include "slotmachine.h"
 
+#include "main.hpp"
+#include "texture.hpp"
+#include "reel.hpp"
+#include "slotmachine.hpp"
+
+/* TODO: тут и далее, глобалы - зло. Если пишешь на сpp напрашивается какой-то основновной класс как точка входа, все эти глобалы будут там как прайваты. */
 HDC			hDC=NULL;				// Приватный контекст устройства GDI
 HGLRC		hRC=NULL;				// Постоянный контекст рендеринга
 HWND		hWnd=NULL;				// Указатель на наше окно
