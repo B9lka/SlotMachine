@@ -1,13 +1,6 @@
-// Thanks to Ben Humphrey at Game Tutorials for his OpenGL image loading code. 
+#include "main.hpp"
+#include "texture.hpp"
 
-#include "main.h"
-#include "texture.h"
-
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//										TEXTURE LOADER
-/////////////////////////////////////////////////////////////////////////////////////////////////
 bool Load_Texture(UINT &texture, LPSTR strFileName)
 {
 	if(!strFileName)  return false;
