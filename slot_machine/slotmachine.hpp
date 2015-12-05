@@ -51,12 +51,12 @@ class SlotMachine
     
     SlotMachine(void)
     {
-        Load_Texture( TextureArray[0], "resource/textures/thereel1.jpg");        
-        Load_Texture( TextureArray[1], "resource/textures/background1.jpg");        
-        Load_Texture( TextureArray[2], "resource/textures/startEna.bmp");
-		Load_Texture( TextureArray[3], "resource/textures/startDis.bmp");
-		Load_Texture( TextureArray[4], "resource/textures/selectEna.bmp");
-		Load_Texture( TextureArray[5], "resource/textures/selectDis.bmp");
+        Load_Texture( TextureArray[0], "resources/textures/thereel1.jpg");        
+        Load_Texture( TextureArray[1], "resources/textures/background1.jpg");        
+        Load_Texture( TextureArray[2], "resources/textures/startEna.bmp");
+		Load_Texture( TextureArray[3], "resources/textures/startDis.bmp");
+		Load_Texture( TextureArray[4], "resources/textures/selectEna.bmp");
+		Load_Texture( TextureArray[5], "resources/textures/selectDis.bmp");
         
 		memset(positions, 0, sizeof(int)*5);
         memset(velocities, 0, sizeof(int)*5);
